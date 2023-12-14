@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    grid-gap: 2rem;
+    max-width: 360px;
+    padding: 2rem;
+    background-color: rgb(235, 222, 135);
+    
+}
+
+.formfield{
+    display: grid;
+    grid-template-columns: 4rem 1fr;
+}
+input{
+    padding: 0.5rem;
+}
+
+button{
+    padding: 0.5rem;
+    background-color: rgb(246, 86, 32);
+    color: white;
+    
+    
+}
+.message-holder{
+    background-color: rgb(128, 250, 128);
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:black;
+}
+.hidden{
+    display: none;
+}
+.success{
+    background-color: rgb(100, 241, 100);
+    color: darkgreen;
+}
+
+.failed{
+    background-color: rgb(243, 88, 88);
+    color: red;
+}
